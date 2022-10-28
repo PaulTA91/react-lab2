@@ -1,5 +1,5 @@
 import React from "react";
-import { Accordion } from "react-bootstrap";
+import Accordion from "react-bootstrap/Accordion";
 
 const FoodItem = ({ food }) => {
   return (
@@ -12,4 +12,5 @@ const FoodItem = ({ food }) => {
     </div>
   );
 };
+
 export default FoodItem;
